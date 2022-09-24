@@ -1,6 +1,8 @@
 # Process Scheduling Simulator
 The project here is used to implement some of the theoretical process scheduling policies which can be used in Operating Systems.
 
+Scheduling for multi-core CPU is not yet implemented.
+
 ## Implemented scheduling policies
 Currently, only 3 policies are implemented:
 - First in First out (FIFO)
