@@ -1,9 +1,15 @@
-package com.vincentcodes.proc;
+package com.vincentcodes.proc.policies;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
+
+import com.vincentcodes.proc.ProcessContext;
+import com.vincentcodes.proc.ProcessStates;
+import com.vincentcodes.proc.Processor;
+import com.vincentcodes.proc.SchedulePolicy;
+import com.vincentcodes.proc.SimpleProcess;
 
 public abstract class OneQueuePolicy implements SchedulePolicy{
     protected final Queue<ProcessContext> readyQueue;

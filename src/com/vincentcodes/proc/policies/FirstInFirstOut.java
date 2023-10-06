@@ -1,6 +1,5 @@
 package com.vincentcodes.proc.policies;
 
-import com.vincentcodes.proc.OneQueuePolicy;
 import com.vincentcodes.proc.ProcessStates;
 import com.vincentcodes.proc.Processor;
 

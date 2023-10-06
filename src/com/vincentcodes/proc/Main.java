@@ -7,9 +7,22 @@ import com.vincentcodes.proc.policies.RoundRobin;
 @SuppressWarnings("unused")
 public class Main {
     public static void main(String[] args) {
-        // fifoTest();
+        fifoTest();
         // roundRobinTest();
-        multilevelFeedbackQueueTest();
+        // multilevelFeedbackQueueTest();
+
+        // Processor processor = new Processor(new FirstInFirstOut());
+        // processor.onTick(currentTick ->{
+        //     if(currentTick == 0){
+        //         processor.submit(new SimpleProcess(currentTick, 85, 0, 0), "A");
+        //     }else if(currentTick == 10){
+        //         processor.submit(new SimpleProcess(currentTick, 50, 0, 0), "B");
+        //     }else if(currentTick == 25){
+        //         processor.submit(new SimpleProcess(currentTick, 45, 0, 0), "C");
+        //     }
+        //     // else if .... currentTick == 40, 65, 80
+        // });
+        // processor.run();
     }
 
     private static void fifoTest(){

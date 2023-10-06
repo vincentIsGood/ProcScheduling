@@ -9,7 +9,7 @@ public class Processor{
     public static int CURRENT_TICK = 0;
     public static final Logger LOGGER = new Logger(){
         {
-            // enable(LogType.DEBUG);
+            enable(LogType.DEBUG);
         }
     };
 
